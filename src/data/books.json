@@ -1,0 +1,86 @@
+[
+  {
+    "id": "book1",
+    "title": "The Adventures of Tom",
+    "level": 1,
+    "coverImage": "/books/cover1.png",
+    "pdfPath": "/books/multi_page.pdf",
+    "description": "A simple story for beginners.",
+    "fileType": "pdf"
+  },
+  {
+    "id": "book2",
+    "title": "Mystery in the Forest",
+    "level": 2,
+    "coverImage": "/books/cover2.png",
+    "pdfPath": "/books/multi_page.pdf",
+    "description": "Intermediate level mystery story.",
+    "fileType": "pdf"
+  },
+  {
+    "id": "book3",
+    "title": "Space Journey",
+    "level": 3,
+    "coverImage": "/books/cover3.png",
+    "pdfPath": "/books/multi_page.pdf",
+    "description": "Advanced science fiction.",
+    "fileType": "pdf"
+  },
+  {
+    "id": "book4",
+    "title": "The Lost City",
+    "level": 4,
+    "coverImage": "/books/cover4.png",
+    "pdfPath": "/books/multi_page.pdf",
+    "description": "An exciting adventure to find a lost civilization.",
+    "fileType": "pdf"
+  },
+  {
+    "id": "book5",
+    "title": "Cooking with Grandma",
+    "level": 1,
+    "coverImage": "/books/cover5.png",
+    "pdfPath": "/books/multi_page.pdf",
+    "description": "Learn to cook delicious meals.",
+    "fileType": "pdf"
+  },
+  {
+    "id": "book6",
+    "title": "Robot Friends",
+    "level": 2,
+    "coverImage": "/books/cover6.png",
+    "pdfPath": "/books/multi_page.pdf",
+    "description": "A story about a boy and his robot.",
+    "fileType": "pdf"
+  },
+  {
+    "id": "book_text_sample",
+    "title": "Sample Text Book",
+    "author": "Test User",
+    "level": 1,
+    "coverImage": "/books/cover1.png",
+    "pdfPath": "/books/sample.txt",
+    "description": "A test book for text reader.",
+    "fileType": "text"
+  },
+  {
+    "id": "0250b521-54f3-473f-b8ba-7854dbacb95f",
+    "title": "サンプル物語",
+    "author": "シーブック・サンプール",
+    "level": 2,
+    "description": "サンプル用の本だよ。",
+    "coverImage": "/uploads/0250b521-54f3-473f-b8ba-7854dbacb95f_cover.png",
+    "pdfPath": "/uploads/0250b521-54f3-473f-b8ba-7854dbacb95f_file.txt",
+    "fileType": "text"
+  },
+  {
+    "id": "5228fa09-8abb-4ef5-b9c2-02369770dd5a",
+    "title": "Whatever",
+    "author": "Adam Whater",
+    "level": 1,
+    "description": "あｓだだ",
+    "coverImage": "/uploads/5228fa09-8abb-4ef5-b9c2-02369770dd5a_cover.png",
+    "pdfPath": "/uploads/5228fa09-8abb-4ef5-b9c2-02369770dd5a_file.pdf",
+    "fileType": "pdf"
+  }
+]
