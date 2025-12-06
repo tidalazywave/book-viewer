@@ -2,9 +2,11 @@
 
 import { useState, useEffect } from 'react';
 import { useSession, signOut } from 'next-auth/react';
+import dynamic from 'next/dynamic';
 import Bookshelf from '@/components/Bookshelf';
-import FlipBook from '@/components/FlipBook';
-import TextFlipBook from '@/components/TextFlipBook';
+// Use dynamic imports for components that use browser-specific APIs (like DOMMatrix, Canvas)
+const FlipBook = dynamic(() => import('@/components/FlipBook'), { ssr: false });
+const TextFlipBook = dynamic(() => import('@/components/TextFlipBook'), { ssr: false });
 import { Book } from '@/types/book';
 import { supabase } from '@/lib/supabase';
 import Link from 'next/link';
